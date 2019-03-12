@@ -4,6 +4,33 @@ manage complex projects in taskwarrior using tasks tagged with epic
 
 taskwarrior.epics is the work of Tom Elliott (tom.elliott@nyu.edu). Copyright (c) 2019 Tom Elliott. See LICENSE.txt file for complete license.
 
+## capabilities
+
+### list projects
+
+Run the script to learn more about how the "projects" attribute is being used in your taskwarrior database:
+
+```bash
+python scripts/list_projects.py
+```
+
+You'll get a result on stdout like:
+
+```
+Taskwarrior Project Report
+==========================
+active projects: 82
+tasks without projects: 112
+projects with a single epic: 11
+projects without epics: 69
+    abbreviations
+    accessibility
+    ...
+projects with too many epics: 2
+    preservation (2)
+    taskwarrior epics (2)
+```
+
 ## definitions
 
 <dl>
