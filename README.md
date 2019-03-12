@@ -19,22 +19,22 @@ taskwarrior.epics is the work of Tom Elliott (tom.elliott@nyu.edu). Copyright (c
 
 ## dependencies
 
-    - [Ralph Bean's Python Taskwarrior API](https://github.com/ralphbean/taskw)
+ - [Ralph Bean's Python Taskwarrior API](https://github.com/ralphbean/taskw)
 
 ## capabilities/desiderata/todo
 
-    - get list of projects (```scripts/list_projects.py```) with:
-        - [x] list of problems like no epic, too many epics, etc.
-        - [ ] description (where to store this? maybe ```data/projects.txt```?)
-        - [ ] epic task
-        - [ ] first action for the epic
-        - [ ] associated project folders, messages, online links
-        - [ ] due dates
+- get list of projects (```scripts/list_projects.py```) with:
+    - [x] list of problems like no epic, too many epics, etc.
+    - [ ] description (where to store this? maybe ```data/projects.txt```?)
+    - [ ] epic task
+    - [ ] first action for the epic
+    - [ ] associated project folders, messages, online links
+    - [ ] due dates
 
-    - get taskwarrior orphans/incompletes; i.e., projects without:
-        - [ ] description
-        - [x] epic
-        - [x] ~~tasks~~ (projects are defined by the project attribute on tasks, so they cannot exist without at least one task)
-        - [ ] programme association (NB: ```data/programmes.txt```)
+- get taskwarrior orphans/incompletes; i.e., projects without:
+    - [ ] description
+    - [x] epic
+    - [x] ~~tasks~~ (projects are defined by the project attribute on tasks, so they cannot exist without at least one task)
+    - [ ] programme association (NB: ```data/programmes.txt```)
 
-    - how to manage/make use of a list of active programmes a list of active projects, etc.
+- how to manage/make use of a list of active programmes a list of active projects, etc.
